@@ -1,4 +1,5 @@
-// without babel/register preset this will throw error
+// without babel/register preset this will throw error 
+// (import @babel/polyfill) trying to use 'import' statement
 // need to change name to webpack.config.babel.js and have this preset
 
 const path = require('path');
