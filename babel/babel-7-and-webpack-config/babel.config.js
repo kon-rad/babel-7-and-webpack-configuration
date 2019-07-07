@@ -10,8 +10,9 @@ module.exports = function (api) {
             'debug': true
         }]
     ];
+    const plugins = [['@babel/plugin-transform-runtime', { corejs: 3, debug: true }]];
 
     return {
-        presets,
+        plugins,
     };
 }
