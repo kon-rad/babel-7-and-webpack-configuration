@@ -1,0 +1,35 @@
+{
+  "name": "@lernaproject/common",
+  "version": "0.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "konrad.gnat <konrad.gnat@backstopsolutions.com>",
+  "license": "ISC",
+  "main": "lib/common.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://artifactory.backstop.solutions/api/npm/npm-virtual"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kon-rad/babel-7-and-webpack-configuration.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/kon-rad/babel-7-and-webpack-configuration/issues"
+  },
+  "homepage": "https://github.com/kon-rad/babel-7-and-webpack-configuration#readme",
+  "dependencies": {
+    "core-js": "^3.1.4",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
